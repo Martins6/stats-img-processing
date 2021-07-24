@@ -1,0 +1,9 @@
+\begin{tabular}{lrr}
+\toprule
+{} &        F1 &        F2 \\
+\midrule
+SS Loadings    &  4.265013 &  3.457001 \\
+Proportion Var &  0.426501 &  0.345700 \\
+Cumulative Var &  0.426501 &  0.772201 \\
+\bottomrule
+\end{tabular}
