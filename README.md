@@ -1,29 +1,29 @@
 # Statistical Analysis of Satellite Images
 
-This repository contains specifics code to analyze statistically Satellite images. The notebooks are completely reproducible.
+This repository contains specific code to statistically analyze satellite images. The jupyter notebooks are completely reproducible.
 
-This analysis was used to build part of a report in a Multivariate Analysis 2 course in the bachellor degree of Statistics in UFPE. I've also annexed in this repository this report, on "Formal_Report.pdf".
+This analysis was used to build part of a report in a Multivariate Analysis 2 course in the Statistics bachellor degree in UFPE. I've also attached in this repository the report on "Formal_Report.pdf".
 
-Also, each notebook generated a PDF to better analysis.
+In addition, each notebook generated a PDF for a more comprehensive reading.
 
 # Analysis
 
 ### Statistical Decomposition
 
-The main objective was to break down the many channels of the satellite image, into something more easily understood. We want to reduce the dimensionality, but mantaining as much information as possible. So we used to methods:
+The main objective was to break down the many channels of the satellite image into something easily understood. We want to reduce the dimensionality, but mantaining as much information as possible. For the K-channels that we have on the image, we wish to reduce to 1-dimension only. So we used to methods:
 
 * PCA
 * Factorial Analysis
 
-The main conclusion was that those techniques could easily highlight some things, such as as light focus! Which is really nice to bring out the outliers in the image.
+The main conclusion was that those techniques could highlight some things, such as as light clusters in the middle of a desert! Which is really nice to bring out any kind of outliers in the image.
 
 ### Clustering
 
-With clustering we wanted to see if we could statistically make regions or surfaces in the image. I wanted to also use the results from Statistical Decomposition. So we used:
+With clustering we wanted to see if we could statistically make regions or surfaces in the image. I also wanted to use the greysclae (1-d images) from Statistical Decomposition. So we used:
 
 * K-Means
 
-The main conclusion was that with 4 groups we could easily see, in a specific photo, the group "river", the light focus, the field and trees. It was sucessfull in clustering! Also the Factor Analysis provided great features to the model.
+The main conclusion was that with 4 groups we could easily see, in a specific photo, the groups river, the light focus, the field and trees. The method was successful in clustering! Also the Factor Analysis provided great features to the model.
 
 # Data
 
@@ -38,9 +38,9 @@ As it is knonw, satellites "sees" with different channels than us. Our digital s
 
 * I'm planning on using Fourier Analysis and Wavelet processing to see what other mysteries could be found!
 
-* I shall try to find the optimal number of clusters, using the elbow method.
+* I shall try to find the optimal number of clusters using the elbow method.
 
-* Try to find ways to implement in a distributed way the K-Medoid or Partition Around Medoids (PAM) algorithm, and the Hierarchical in order to analysis such Big Data (500 GB are needed for just this tiny image).
+* I'll try to find ways to implement in a distributed way the K-Medoid or Partition Around Medoids (PAM) algorithm, and the Hierarchical in order to analysis such Big Data (500 GB are needed for just this tiny image) and compare different types of clustering methods.
 
 # References
 
