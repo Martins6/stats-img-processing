@@ -2,7 +2,7 @@
 
 This repository contains specific code to statistically analyze satellite images. The jupyter notebooks are completely reproducible.
 
-This analysis was used to build part of a report in a Multivariate Analysis 2 course in the Statistics bachellor degree in UFPE. I've also attached in this repository the report on "Formal_Report.pdf".
+This analysis was used to build part of a report in a Multivariate Analysis 2 course in the Statistics bachellor degree in UFPE. I've also attached in this repository the report in "Formal_Report.pdf", however it is in the portuguese language.
 
 In addition, each notebook generated a PDF for a more comprehensive reading.
 
